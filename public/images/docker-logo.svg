@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>docker</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium" transform="translate(-272.000000, -2570.000000)" fill-rule="nonzero">
+            <g id="docker" transform="translate(272.000000, 2570.000000)">
+                <path d="M512,256 C512,397.385 397.385,512 256,512 C114.615,512 0,397.385 0,256 C0,114.615 114.615,0 256,0 C386.497,0 494.184,97.646 509.994,223.859 C511.143,232.981 511.812,242.249 511.958,251.643 C511.99,253.095 512,254.548 512,256 Z" id="Path" fill="#006BC0"></path>
+                <g id="Group" transform="translate(54.346737, 101.763000)" fill="#F2F2F2">
+                    <path d="M457.611263,149.88 C435.752263,176.504 392.921263,174.425 392.921263,174.425 C366.506263,288.225 206.981263,346.144 96.2222629,317.691 C-14.5257371,289.248 0.709262917,157.152 0.709262917,157.152 L324.847263,157.152 C351.596263,157.152 353.634263,149.023 353.634263,149.023 C329.925263,92.797 366.507263,62.652 366.507263,62.652 C394.960263,67.741 402.065263,116.506 402.065263,116.506 C425.418263,112.316 444.174263,117.3 455.647263,122.096 C456.796263,131.218 457.465263,140.486 457.611263,149.88 Z" id="Path"></path>
+                    <rect id="Rectangle" x="35.2532629" y="105.67" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="92.2942629" y="105.67" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="263.396263" y="105.67" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="206.365263" y="105.67" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="206.365263" y="-2.84217094e-14" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="149.324263" y="105.67" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="92.2942629" y="52.83" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="206.365263" y="52.83" width="45.39" height="41.32"></rect>
+                    <rect id="Rectangle" x="149.324263" y="52.83" width="45.39" height="41.32"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

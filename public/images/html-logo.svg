@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="453px" height="512px" viewBox="0 0 453 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>html</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium" transform="translate(-494.000000, -1855.000000)" fill-rule="nonzero">
+            <g id="html" transform="translate(494.000000, 1855.000000)">
+                <polygon id="Path" fill="#FF7816" points="0 0 31.800781 448.101562 226.199219 512 420.597656 448.101562 452.398438 0"></polygon>
+                <polygon id="Path" fill="#FF4B00" points="452.398438 0 420.597656 448.101562 226.199219 512 226.199219 0"></polygon>
+                <polygon id="Path" fill="#ECECF1" points="367.5 136 145.199219 136 150.597656 211 362.101562 211 349.199219 392.597656 226.199219 433.699219 103.199219 392.597656 99 332 159 332 160.199219 348.5 226.199219 370.398438 292.199219 348.5 297.597656 271 94.5 271 80.699219 76 371.699219 76"></polygon>
+                <g id="Group" transform="translate(226.199219, 76.000000)" fill="#E2E2E7">
+                    <polygon id="Path" points="135.902343 135 123 316.597656 -2.84217094e-14 357.699219 -2.84217094e-14 294.398438 66 272.5 71.398437 195 -2.84217094e-14 195 -2.84217094e-14 135"></polygon>
+                    <polygon id="Path" points="145.5 0 141.300781 60 -5.68434189e-14 60 -5.68434189e-14 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

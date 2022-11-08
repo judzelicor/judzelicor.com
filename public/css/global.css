@@ -1,0 +1,278 @@
+:root {
+    --sans-serif-font: "Red Hat Display";
+    --monospace: "Red Hat Mono";
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html[data-theme="dark"] {
+    --primary-page-bg: #020509;
+    --primary-page-fg: #00ff92;
+    --primary-tags-fg: #757780;
+    --primary-link-fg: #00ff92;
+    --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+body,
+html {
+    background-color: var(--primary-page-bg);
+    color: var(--primary-page-fg);
+    font-family: var(--monospace);
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    color: var(--primary-link-fg);
+    text-decoration: none;
+}
+
+section {
+    background-color: #020509;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    display: inline-block; 
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--sans-serif-font);
+    margin: 0;
+}
+
+#stage {
+    height: 100vh;
+}
+
+.headerType__aB {
+    position: absolute;
+    width: 100%;
+}
+
+.menuType__aB {
+    align-items: center;
+    display: flex;
+    font-size: 0.85rem;
+    gap: 40px;
+}
+
+.heroSectionType__01 {
+    height: 100%;
+}
+
+.flexContainerType__01 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.heroHeaderType__01 {
+    margin-bottom:  3rem;
+    position: relative;
+    width: fit-content;
+}
+
+.heroHeaderTypeText__01 {
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    padding-left: 25px;
+    text-shadow: 0px 0px 14px rgba(0,255,146,0.6);
+    width: fit-content;
+}
+
+.heroHeaderTag__01,
+.heroHeaderTag__02 {
+    color: var(--primary-tags-fg);
+    font-weight: 400;
+    font-size: 0.75rem;
+    width: fit-content;
+    position: absolute;
+}
+
+.heroHeaderTag__01 {
+    top: -16px;
+}
+
+.heroHeaderTag__02 {
+    bottom: -16px;
+}
+
+.heroDescriptionType__01 {
+    color: #54626F;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+    max-width: 720px;
+    padding: 0 25px;
+    position: relative;
+}
+
+.heroDescriptionType__01::before {
+    color: #757780;
+    content: "<p>";
+    font-size: 0.75rem;
+    left: 0px;
+    position: absolute;
+    top: -32px;
+}
+
+.heroDescriptionType__01::after {
+    bottom: -32px;
+    color: #757780;
+    content: "</p>";
+    font-size: 0.75rem;
+    left: 0px;
+    position: absolute;
+}
+
+.heroButtonType__01 {
+    background-color: transparent;
+    color: #54626F;
+    font-family: "Red Hat Mono";
+    font-size: 0.85rem;
+    position: relative;
+}
+
+.heroButtonType__01::before {
+    color: #757780;
+    content: "<button>";
+    font-family: "Red Hat Mono";
+    font-size: 0.75rem;
+    padding-right: 0.85rem;
+}
+
+.heroButtonType__01::after {
+    color: #757780;
+    content: "</button>";
+    font-family: "Red Hat Mono";
+    font-size: 0.75rem;
+    padding-left: 0.85rem;
+}
+
+.flexContainerType__02 {
+    align-items: flex-start;
+    background-color: #020509;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    height: 90vh;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.sectionHeaderType__a0 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    position: relative;
+    max-width: 1200px;
+}
+
+.sectionHeaderTextType__ad {
+    font-size: 4rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    text-shadow: 0px 0px 14px rgba(0,255,146,0.6);
+    width: fit-content;
+}
+
+.sectionHeaderTag__ac,
+.sectionHeaderTag__ae {
+    position: absolute;
+    color: #757780;
+    font-family: "Red Hat Mono";
+    font-size: 0.75rem;
+}
+
+.sectionHeaderTag__ac {
+    top: 0;
+    left: 0;
+}
+
+.sectionHeaderTag__ae {
+    bottom: 0;
+    right: 0;
+}
+
+.sectionDescription__af {
+    color: #54626F;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    max-width: 968px;
+}
+
+.sectionDescription__af::before {
+    content: "<p>";
+    display: block;
+    padding-bottom: 1rem;
+}
+
+.sectionDescription__af::after {
+    content: "<p>";
+    display: block;
+    padding-top: 1rem;
+}
+
+.sectionDescriptionValue_af {
+    padding-left: 25px;
+}
+
+.flexContainerType__b1 {
+    align-items: flex-start;
+    background-color: #020509;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.techLogo {
+    cursor: pointer;
+    opacity: 0.4;
+    transition: 500ms var(--ease-out-expo);
+}
+
+.techLogo:hover {
+    opacity: 1;
+}
+
+.overlay::before,
+.overlay::after {
+    pointer-events: none;
+}

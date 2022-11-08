@@ -1,0 +1,19 @@
+@media only screen and (min-width: 768px) {
+    .heroHeaderType__01 {
+        margin-bottom: 4rem;
+    }
+
+    .heroHeaderTypeText__01 {
+        font-size: 7rem;
+    }
+
+    .sectionHeaderTextType__ad {
+        font-size: 7rem;
+    }
+}
+
+@media only screen and (min-width: 1268px) {
+    .heroHeaderTypeText__01 {
+        font-size: 10rem;
+    }
+}

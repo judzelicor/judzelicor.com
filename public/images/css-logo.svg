@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="448px" height="512px" viewBox="0 0 448 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>css-3</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium" transform="translate(-876.000000, -1795.000000)" fill-rule="nonzero">
+            <g id="css-3" transform="translate(876.000000, 1795.000000)">
+                <polygon id="Path" fill="#2196F3" points="0 0 40.8 460.8 224 512 407.136 460.832 448 0"></polygon>
+                <polygon id="Path" fill="#FAFAFA" points="360.768 150.688 355.616 208.576 340.064 382.112 224 414.208 223.904 414.24 107.904 382.112 99.808 291.36 156.64 291.36 160.864 338.432 223.936 355.456 223.968 355.424 287.136 338.4 295.744 259.968 97.088 260.512 91.456 206.88 300.512 204.416 304.736 147.008 85.856 147.616 82.176 94.208 224 94.208 365.824 94.208"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
