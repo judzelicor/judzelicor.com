@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="288px" height="44px" viewBox="0 0 288 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>brand-logo</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Medium" transform="translate(-262.000000, -4525.000000)" fill="#00FF92">
+            <g id="brand-logo" transform="translate(262.704000, 4525.232000)">
+                <text id="JUDZ-PHILIP-ELICOR" font-family="RedHatMono-Bold, Red Hat Mono" font-size="18" font-weight="bold">
+                    <tspan x="46.296" y="19.768">JUDZ PHILIP ELICOR</tspan>
+                </text>
+                <text id="Programming-Hashira" font-family="RedHatDisplay-Medium, Red Hat Display" font-size="14" font-weight="400">
+                    <tspan x="75.296" y="38.768">Programming Hashira</tspan>
+                </text>
+                <g id="&lt;-&gt;" fill-rule="nonzero">
+                    <polygon id="Path" points="22.752 35.352 0 17.64 22.824 0 25.488 3.384 6.696 17.568 25.488 31.896"></polygon>
+                    <polygon id="Path" points="264.24 0 286.992 17.712 264.168 35.352 261.504 31.968 280.296 17.784 261.504 3.456"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

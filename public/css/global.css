@@ -22,6 +22,7 @@ html {
     font-family: var(--monospace);
     height: 100vh;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -34,7 +35,9 @@ section {
 }
 
 button {
+    background-color: transparent;
     border: none;
+    color: #00ff92;
     cursor: pointer;
     padding: 0;
 }
@@ -73,10 +76,10 @@ h6 {
     width: 100%;
 }
 
-.menuType__aB {
+.menuType__H3r0 {
     align-items: center;
     display: flex;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     gap: 40px;
 }
 
@@ -243,6 +246,8 @@ h6 {
     content: "<p>";
     display: block;
     padding-top: 1rem;
+    width: fit-content;
+    margin-left: auto;
 }
 
 .sectionDescriptionValue_af {
@@ -264,7 +269,8 @@ h6 {
 
 .techLogo {
     cursor: pointer;
-    opacity: 0.4;
+    opacity: 0.50;
+    position: relative;
     transition: 500ms var(--ease-out-expo);
 }
 
@@ -275,4 +281,235 @@ h6 {
 .overlay::before,
 .overlay::after {
     pointer-events: none;
+}
+
+.buttonType__f0s3 {
+    background-color: #00ff92;
+    border-radius: 0.75rem;
+    color: #020509;
+    font-family: "Red Hat Mono";
+    font-size: 1rem;
+    font-weight: bold;
+    height: 72px;
+    transition: 500ms var(--ease-out-expo);
+    width: 320px;
+}
+
+.buttonType__f0s3:hover {
+    box-shadow: 0 0 3rem -0.5rem #00ff92;
+}
+
+@media only screen and (min-width: 768px) {
+    .buttonType__f0s3 {
+        font-size: 1.5rem;
+        width: 480px;
+    }
+}
+
+.flexWrapperType__H3r0 {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 20px;
+}
+
+.flexContainerType__f0s3,
+.flexContainerType__5b0T,
+.flexContainerType__sK1l,
+.flexContainerType__Pr0J,
+.flexContainerType__3xPs {
+    align-items: center;
+    background-color: #020509;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    max-width: 1200px;
+    padding: 25px;
+}
+
+.descriptionType__f0s3 {
+    color: #54626F;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 5rem;
+    max-width: 720px;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+}
+
+.descriptionType__f0s3::before {
+    color: #757780;
+    content: "<p>";
+    font-size: 0.75rem;
+    left: 0px;
+    position: absolute;
+    top: -32px;
+    width: fit-content;
+}
+
+.descriptionType__f0s3::after {
+    bottom: -32px;
+    color: #757780;
+    content: "</p>";
+    font-size: 0.75rem;
+    left: 0px;
+    position: absolute;
+    right: 0;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.heroDescriptionType__3xPs {
+    color: #54626F;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    max-width: 968px;
+    position: relative;
+}
+
+.heroDescriptionType__3xPs::before {
+    color: #757780;
+    content: "<p>";
+    font-size: 0.75rem;
+    left: 0px;
+    position: absolute;
+    top: -32px;
+    width: fit-content;
+}
+
+.heroDescriptionType__3xPs::after {
+    bottom: -32px;
+    color: #757780;
+    content: "</p>";
+    font-size: 0.75rem;
+    left: 0px;
+    position: absolute;
+    right: 0;
+    width: fit-content;
+    margin-left: auto;
+}
+
+[data-animation="waving-animation"] {
+    animation-name: waving-animation;
+    animation-duration: 2500ms;
+    animation-timing-function: var(--ease-out-expo);
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;   
+}
+
+@keyframes waving-animation {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+  100% { transform: rotate( 0.0deg) }
+}
+
+.techLogoGlow {
+    filter: blur(1rem);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: 500ms var(--ease-out-expo);
+    height: 60%;
+    width: 60%;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.techLogo:hover .techLogoGlow {
+    opacity: 0.4;
+}
+
+.techLogoGlow[data-glow="git"] {
+    background-color: #F05133;
+}
+
+.techLogoGlow[data-glow="mongodb"] {
+    background-color: #10AA50;
+}
+
+.techLogoGlow[data-glow="node"] {
+    background-color: #83CD29;
+}
+
+.techLogoGlow[data-glow="django"] {
+    background-color: #f6f6f6;
+}
+
+.techLogoGlow[data-glow="nginx"] {
+    background-color: #009900;
+}
+
+.techLogoGlow[data-glow="mysql"] {
+    background-color: #00758F;
+}
+
+.techLogoGlow[data-glow="postgresql"] {
+    background-color: #336791;
+}
+
+.techLogoGlow[data-glow="php"] {
+    background-color: #AEB2D5;
+}
+
+.techLogoGlow[data-glow="golang"] {
+    background-color: #00ACD7;
+}
+
+.techLogoGlow[data-glow="java"] {
+    background-color: #E76F00;
+}
+
+
+.techLogoGlow[data-glow="html"] {
+    background-color: #FF7816;
+    width: 100%;
+}
+
+.techLogoGlow[data-glow="react"] {
+    background-color: #61DAFB;
+}
+
+.techLogoGlow[data-glow="docker"] {
+    background-color: #006BC0;
+    width: 120%;
+}
+
+.techLogoGlow[data-glow="python"] {
+    background: rgb(90,159,212);
+    background: linear-gradient(325deg, rgba(90,159,212,1) 0%, rgba(255,212,59,1) 100%);
+}
+
+.techLogoGlow[data-glow="javascript"] {
+    background-color: #FFDF00;
+    width: 100%;
+}
+
+.techLogoGlow[data-glow="css"] {
+    background-color: #2196F3;
+    width: 100%;
+}
+
+.projectCardHeaderType__Pr0J {
+    font-family: "Red Hat Mono";
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 768px) {
+    .projectCardHeaderType__Pr0J {
+        font-size: 5rem;
+    }
 }
