@@ -59,8 +59,8 @@ function App() {
               I’m a student at the University of Alberta currently taking a degree in Biochemistry. 
               I have taught myself programming in the last year and have made it a dream for myself 
               to work a career that is a marriage of two fields that I love, science 🧬 and computer science 💻.
-              When I'm not in front of my computer, there is a probability of 50% that I am at the library, a probability of 30% that I'm at
-              a nearby Inidigo Store, 20% that I'm at the cafeteria, and 10% chance that I'm a the gym.
+              When I'm not in front of my computer, there is a probability of 50% that I am at the library, a probability of 25% that I'm at
+              a nearby Inidigo Store, 20% that I'm at the cafeteria, and 5% chance that I'm at a gym.
             </p>
           </div>
         </div>
