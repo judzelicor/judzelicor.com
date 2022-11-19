@@ -17,3 +17,9 @@
         font-size: 10rem;
     }
 }
+
+.projectCards__Pr0J {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}

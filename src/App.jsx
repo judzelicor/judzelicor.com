@@ -245,28 +245,47 @@ function App() {
             <h2 className={ "sectionHeaderTextType__ad" }>Projects</h2>
             <div className={ "sectionHeaderTag__ae" }>&lt;/h2&gt;</div>
           </div>
-          <ul>
-            <li>
-              <div>
-                <h3 className={ "projectCardHeaderType__Pr0J" }>Discovery Covid</h3>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h3 className={ "projectCardHeaderType__Pr0J" }>Oubjects Ecommerce</h3>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h3 className={ "projectCardHeaderType__Pr0J" }>PostDuck</h3>
-              </div>
-            </li>
-            <li>
-              <div>
-                <h3 className={ "projectCardHeaderType__Pr0J" }>Otenki App</h3>
-              </div>
-            </li>
-          </ul>
+          <div style={{ position: "relative" }}>
+            <div className={ "verticalLine__Pr0J" }></div>
+            <ul className={ "projectCards__Pr0J" }>
+              <li>
+                <img className={ "dot__Pr0J" } src={ "/images/dot.svg" } />
+                <div>
+                  <h3 className={ "projectCardHeaderType__Pr0J" }>
+                    <a href={ "https://github.com/judzelicor/discovery-covid" } target={ "_blank" }>Discovery Covid</a>
+                  <p className={ "projectCardParagraph__Pr0J" }>A web application where visitors are able to obtain updated information surrounding COVID-19 and visualize it in an interavtivce map.</p>
+                  </h3>
+                </div>
+              </li>
+              <li>
+                <img className={ "dot__Pr0J" } src={ "/images/dot.svg" } />
+                <div>
+                  <h3 className={ "projectCardHeaderType__Pr0J" }>
+                    <a href={ "https://github.com/judzelicor/clothing-ecommerce" } target={ "_blank" }>Oubjects Ecommerce</a>
+                  </h3>
+                  <p className={ "projectCardParagraph__Pr0J" }>An ecommerce website for a fictional clothing brand.</p>
+                </div>
+              </li>
+              <li>
+                <img className={ "dot__Pr0J" } src={ "/images/dot.svg" } />
+                <div>
+                  <h3 className={ "projectCardHeaderType__Pr0J" }>
+                    <a href={ "https://github.com/judzelicor/postduck" } target={ "_blank" }>PostDuck</a>
+                  </h3>
+                  <p className={ "projectCardParagraph__Pr0J" }>An online social platform for posting bursts of short, 150 character limited paragraphs. In other words, a twitter clone.</p>
+                </div>
+              </li>
+              <li>
+                <img className={ "dot__Pr0J" } src={ "/images/dot.svg" } />
+                <div>
+                  <h3 className={ "projectCardHeaderType__Pr0J" }>
+                    <a href={ "https://github.com/judzelicor/otenki-app" } target={ "_blank" }>Otenki App</a>
+                  </h3>
+                  <p className={ "projectCardParagraph__Pr0J" }>A web application for obtaining insight about the weather of any city. Visualize daily weather on a graph and other statistics.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
       <section id={ "experience" }>

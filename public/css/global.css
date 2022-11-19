@@ -331,6 +331,7 @@ h6 {
     margin-bottom: 100px;
     max-width: 1200px;
     padding: 25px;
+    position: relative;
 }
 
 .descriptionType__f0s3 {
@@ -506,11 +507,12 @@ h6 {
 .projectCardHeaderType__Pr0J {
     font-family: "Red Hat Mono";
     font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
     .projectCardHeaderType__Pr0J {
-        font-size: 5rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -519,4 +521,31 @@ h6 {
     .skillsWrapper__sK1l {
         height: 75vh;
     }
+}
+
+.verticalLine__Pr0J {
+    background-color: #00ff92;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 1px;
+    margin-left: -50px;
+}
+
+.dot__Pr0J {
+    left: 0;
+    margin-left: -59px;
+    margin-top: 7px;
+    position: absolute;
+}
+
+.projectCards__Pr0J {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+.projectCardParagraph__Pr0J {
+    font-size: 0.85rem;
+    color: #54626f;
 }
