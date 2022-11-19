@@ -66,7 +66,7 @@ function App() {
         </div>
       </section>
       <section id={ "skills" }>
-        <div style={{ height: "75vh" }}>
+        <div className={ "skillsWrapper__sK1l" }>
           <div className={ "flexContainerType__sK1l" }>
             <div className={ "sectionHeaderType__a0" }>
               <div className={ "sectionHeaderTag__ac" }>&lt;h2&gt;</div>
@@ -291,7 +291,7 @@ function App() {
               <div className={ "sectionHeaderTag__ae" }>&lt;/h2&gt;</div>
             </div>
             <p className={ "descriptionType__f0s3" }>My inbox is always open for any and new ooprtunities. Whether you have a question, an opportunity, or simply wanted to engage in a friendly chatter, I'll do my best to get back to you! </p>
-            <button className={ "buttonType__f0s3" }>Let's Get In Touch 📩</button>
+            <button className={ "buttonType__f0s3" } onClick={() => window.location.href = "mailto:judzphilipelicor@outlook.com"}>Let's Get In Touch 📩</button>
           </div>
       </section>
     </>
